@@ -19,7 +19,10 @@ body {
 }
 
 img {
-  max-width: 530px;
-  max-height: 752px;
+  display: block;
+  max-width: 1000px;
+
+  // max-height: 752px;
   margin-inline: auto;
+  margin-top: 220px;
 }

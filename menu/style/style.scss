@@ -7,6 +7,39 @@ body {
   background-color: #000;
 }
 
+.fixed {
+  position: fixed;
+  z-index: 2;
+  font-size: 18px;
+}
+
+a {
+  padding-bottom: 18px;
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.card {
+  padding-left: 0;
+  margin-block: 0;
+  line-height: none;
+  text-transform: capitalize;
+  list-style: none;
+  transform: rotate(180deg);
+
+  @media (width < $bp-lg) {
+    display: none;
+  }
+
+  > li {
+    transform: rotate(180deg);
+  }
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -20,9 +53,14 @@ body {
 }
 
 img {
+  display: block;
   max-width: 530px;
   max-height: 752px;
   margin-inline: auto;
+
+  &:hover {
+    border: 3px solid #000;
+  }
 }
 
 // x14

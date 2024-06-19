@@ -19,8 +19,17 @@ body {
   background-color: #000;
 }
 
+.video {
+  display: block;
+  margin-inline: auto;
+}
+
 img {
   max-width: 530px;
   max-height: 752px;
   margin-inline: auto;
+
+  &:hover {
+    border: 3px solid #000;
+  }
 }
