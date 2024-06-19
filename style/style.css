@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  flex-shrink: 0;
+  width: 108rem;
+  height: 69.8125rem;
+  margin: 0;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 1.125rem;
+  line-height: 150%;
+  background: linear-gradient(180deg, #9d6fff 0%, #d9c8fd 31.5%, #fff 61.5%);
+}
+
+.container {
+  margin-inline: auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px;
+  color: #ff4dd7;
+}
+
+p {
+  margin: 0;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #44e497;
+}
+
+.menu {
+  margin-top: 30px;
+}
+
+a {
+  width: 12rem;
+  height: 3.6875rem;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #5b69e8;
+  border: 3px solid #fff700;
+  border-radius: 3.125rem;
+}

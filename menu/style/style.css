@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 1fr;
+  max-width: 75rem;
+  padding: 3rem;
+  margin-inline: auto;
+  background-color: #000;
+}
+
+img {
+  max-width: 530px;
+  max-height: 752px;
+  margin-inline: auto;
+}
