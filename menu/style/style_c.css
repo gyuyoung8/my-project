@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px));
+  grid-auto-rows: 1fr;
+  gap: 1.5rem;
+  max-width: 75rem;
+  padding: 3rem;
+  margin-inline: auto;
+  background-color: #000;
+}
+
+img {
+  max-width: 530px;
+  max-height: 752px;
+  margin-inline: auto;
+}

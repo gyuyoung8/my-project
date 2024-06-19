@@ -16,6 +16,10 @@ body {
   background: linear-gradient(180deg, #9d6fff 0%, #d9c8fd 31.5%, #fff 61.5%);
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .container {
   // max-width: 1190px;
   // padding-inline: 1.5rem;
@@ -43,17 +47,33 @@ p {
 }
 
 .menu {
-  margin-top: 30px;
+  margin-block: 3.125rem;
+
+  &_1 {
+    padding-bottom: 20px;
+  }
+
+  &_2 {
+    padding-bottom: 20px;
+  }
 }
 
 a {
   width: 12rem;
   height: 3.6875rem;
+  padding-inline: 40px;
   font-size: 2.25rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   color: #5b69e8;
   border: 3px solid #fff700;
-  border-radius: 3.125rem;
+  border-radius: 50px;
+
+  &:hover {
+    color: #fff700;
+
+    // background-color: #44e497;
+    border: 3px solid#44e497;
+  }
 }
