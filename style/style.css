@@ -32,6 +32,9 @@ h1 {
   line-height: 120px;
   color: #ff4dd7;
 }
+h1:hover {
+  filter: brightness(1.2) opacity(0.8);
+}
 
 p {
   margin: 0;

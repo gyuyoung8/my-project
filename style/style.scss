@@ -35,6 +35,10 @@ h1 {
   font-weight: 400;
   line-height: 120px;
   color: #ff4dd7;
+
+  &:hover {
+    filter: brightness(1.2) opacity(0.8);
+  }
 }
 
 p {
